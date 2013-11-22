@@ -32,7 +32,7 @@ $class->new(
             }],
         },
         resources => {
-            repository => 'http://dagolden.googlecode.com/svn/'
+            repository => 'https://github.com/dagolden/cpan-mini-devel'
         },
     },
 )->create_build_script;
